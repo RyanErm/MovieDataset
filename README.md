@@ -14,6 +14,8 @@ also note that external users must download the data and adjust the file paths @
 
 [Press Release](press_release.md)
 [Pipeline](pipeline.md)
+[License](LICENSE) WHAT DO I Name it???
+
 
 ## Problem Definition
 Initial Problem: Netflix Content Reccommendation
