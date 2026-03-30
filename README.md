@@ -10,7 +10,10 @@ CREATE A DOI
 also note that external users must download the data and adjust the file paths @!!!!
 
 
-[Data Set](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgDHbT83FJg4SYEykl-iIskoAXHbN_KretkzzvqoBKgnKy0?e=oN18Ns)
+[Data Set](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgAh618Sh_cBTq5wyoayZTHZAQEe_mdXZ4E6tP_DfwqapeA?e=29mNt4)
+
+[Press Release](press_release.md)
+[Pipeline](pipeline.md)
 
 ## Problem Definition
 Initial Problem: Netflix Content Reccommendation
@@ -71,11 +74,11 @@ I decided to make a synthetic data table because an older version of this datase
 ADD IN NEW LINKS ADD IN NEW LINKS
 | Data Table | Description | Link |
 | :--- | :--- | :--- |  
-| Users | Data on each user and their lifestyle | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQC_xbzgFSKXR4B8LNuIMLNMASOhKf_ur-fGPIIZVRA0VQ8?e=CXeMEk |
-| mov | The movie and its attributes | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQBH4NaMFDv0SI99m0olBM4jAcpSeeKkrdquO10eR72xM68?e=riHAZp |
-| net_mov | The movie and its attributes (which are on Netflix) | 
-| rat | The rating for each movie and who made it | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQBci4BDwolUT7BPSJX9j9d0AYhQcVdx_e2T6thQRQXEqq0?e=uzndcu |
-| watch_history | The watch history of each user | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQBiOYNjkfwmTIoGh8txSFexAUrb-X5NKhX7WBdxmjqTS8M?e=byNohj |
+| Users | Data on each user and their lifestyle | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQCIeRJJ3Jk2Rb5333RJ2jEBAZeZkViJv8N9qzHHO1un06w?e=fYcVfD |
+| mov | The movie and its attributes | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQAC9-oW7ojSTqXB7PYewQzfAWTznKasmnefbAJKhhWaHO4?e=OZ0Kbu |
+| net_mov | The movie and its attributes (which are on Netflix) | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQAEIofVw4x9SqmcVEosZinWAd03AKwx_VGwmaDww9sv9DA?e=PMZum7 |
+| rat | The rating for each movie and who made it | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQBmU-SqcfthTqMW1l4XOJdcAUuE-7Q0ZWimtSZikxVIutA?e=bn1hfg |
+| watch_history | The watch history of each user | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQDJCLuXHYLLSqEgRQDB_KsFAYDmYoZCvq711399jV4m-T0?e=uAqY8j |
 
 
 Users
@@ -139,7 +142,7 @@ net_mov
 | Name | Datatype | Description | Example |
 | :--- | :--- | :--- | :--- |
 | movieID | INT | The unique ID of the movie | 1 |
-| title | CHAR | The title of the movie | Toy Story |
+| title | CHAR | The title of the movie | Enola Homes |
 | year | INT | The year the movie was released | 2000 |
 | (no genres listed) | BOOL | If the movie did not have a genre listed | 1 |
 | Action | BOOL | If the movie was Action genre | 1 |
