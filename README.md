@@ -1,22 +1,21 @@
 # DS 4320 Project 1 - MovieDataset
 Ryan Ermovick - jph4dg
+CREATE A DOI
 
 Executive Summary:
 WRITE ME OUT
 
-CREATE A DOI
 
+#### Important Links
 
-also note that external users must download the data and adjust the file paths @!!!!
+| File/Resource | Link |
+| :--- | :--- |
+| Folder with data files | [Data Set](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgCkBPj3Qvv_RqwRktNJpfHWAd3jXUCRhCbCgvidEkNqbVM?e=aQWVLi) |
+| Press Release | [press_release.md](documents/press_release.md) |
+| Data Creation File | [Data Preparation](data_preparation.ipynb) |
+| Pipeline & Model File | [pipeline.ipynb](scripts/pipeline.md) |
+| License | [Ryan Ermovick MIT License](LICENSE) | 
 
-
-[Data Set](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgCkBPj3Qvv_RqwRktNJpfHWAd3jXUCRhCbCgvidEkNqbVM?e=aQWVLi)
-
-[Press Release](documents/press_release.md)
-
-[Pipeline](scripts/pipeline.md)
-
-[Ryan Ermovick MIT License](documents/LICENSE)
 
 
 ## Problem Definition
