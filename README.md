@@ -84,8 +84,7 @@ I decided to make a synthetic data table because an older version of this datase
 #### Entity Relationship Diagram (ERD)
 ![erd](images/erd.png)
 
-
-[Data Folder](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgCkBPj3Qvv_RqwRktNJpfHWAd3jXUCRhCbCgvidEkNqbVM?e=aQWVLi)
+Below is a description of every data table in the database and a link to it
 | Data Table | Description | Link |
 | :--- | :--- | :--- |  
 | Users | Data on each user and their lifestyle | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQDOfQ2NaHrJT7bTmOMNOk3hAenB2wNTW-Nb-6C6aZrlmEE?e=acLMMP |
@@ -94,7 +93,9 @@ I decided to make a synthetic data table because an older version of this datase
 | rat | The rating for each movie and who made it | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQAcgFOBUW4gTI02sv08j089AXlw0JSeCW_iUpCmzCKgR58?e=WFFwZZ |
 | watch_history | The watch history of each user | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQCqrC6KYsPUS7dwKZXvHx5bAdbc4TjjBJ9wWSR5A37xUm8?e=2etYDf |
 
+All data tables can be found in this folder [here](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgCkBPj3Qvv_RqwRktNJpfHWAd3jXUCRhCbCgvidEkNqbVM?e=aQWVLi).
 
+Below is a data dictionary for each table in the database. 
 Users
 | Name | Datatype | Description | Example | Uncertainty |
 | :--- | :--- | :--- | :--- | :--- |  
