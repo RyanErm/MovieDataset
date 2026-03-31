@@ -12,15 +12,15 @@ also note that external users must download the data and adjust the file paths @
 
 [Data Set](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgCkBPj3Qvv_RqwRktNJpfHWAd3jXUCRhCbCgvidEkNqbVM?e=aQWVLi)
 
-[Press Release](press_release.md)
+[Press Release](documents/press_release.md)
 
-[Pipeline](pipeline.md)
+[Pipeline](scripts/pipeline.md)
 
-[License](RyanErm License) WHAT DO I Name it???
+[Ryan Ermovick MIT License](documents/LICENSE)
 
 
 ## Problem Definition
-Initial Problem: Netflix Content Reccommendation
+Initial Problem: Netflix Content Recommendation
 
 Refined Specific Problem - What content should be recommended for Netflix to add to their platform increase user engagement in the platform?
 
@@ -31,7 +31,7 @@ The rationale behind this convergence is getting to the root of the problem. Net
 The motivation for this project is personal. Watching tv is one of my favorite things to do, but I often am looking for new content to consume. Sometimes the recommendations that Netflix or other platforms provides are not effective. This is bad for me, because I am not getting the content that I want, and for Netflix because I am not engaged on their platform and might shift to platforms. In the end, it is of the benefit to the both of us to have an effective recommendation system and well liked content to ensure user engagement and satisfaction. 
 
 
-[A better way to find tv!](press_release.md)
+[A better way to find tv!](documents/press_release.md)
 
 ## Domain Exposition
 Jargon Table
@@ -76,11 +76,11 @@ I decided to make a synthetic data table because an older version of this datase
 
 | Code File | Description | Link |
 | :--- | :--- | :--- |
-| Data Creation | File that shows the data creation | [Data Preparation](datta_preparation.ipynb) |
+| Data Creation | File that shows the data creation | [Data Preparation](scripts/data_preparation.ipynb) |
 
 
 ## Metadata
-![erd](erd.png)
+![erd](images/erd.png)
 
 
 [Data Folder](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgCkBPj3Qvv_RqwRktNJpfHWAd3jXUCRhCbCgvidEkNqbVM?e=aQWVLi)
