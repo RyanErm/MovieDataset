@@ -1,5 +1,6 @@
 # DS 4320 Project 1 - MovieDataset
 Ryan Ermovick - jph4dg
+
 CREATE A DOI
 
 Executive Summary:
@@ -12,16 +13,16 @@ WRITE ME OUT
 | :--- | :--- |
 | Folder with data files | [Data Set](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgCkBPj3Qvv_RqwRktNJpfHWAd3jXUCRhCbCgvidEkNqbVM?e=aQWVLi) |
 | Press Release | [press_release.md](documents/press_release.md) |
-| Data Creation File | [Data Preparation](data_preparation.ipynb) |
+| Data Creation File | [data_preparation](data_preparation.ipynb) |
 | Pipeline & Model File | [pipeline.ipynb](scripts/pipeline.md) |
-| License | [Ryan Ermovick MIT License](LICENSE) | 
+| Ryan Ermovick MIT License | [license](LICENSE) | 
 
 
 
 ## Problem Definition
-Initial Problem: Netflix Content Recommendation
+**Initial Problem:** Netflix Content Recommendation
 
-Refined Specific Problem - What content should be recommended for Netflix to add to their platform increase user engagement in the platform?
+**Refined Specific Problem:** What content should be recommended for Netflix to add to their platform increase user engagement in the platform?
 
 
 The rationale behind this convergence is getting to the root of the problem. Netflix is one of many streaming services now available to users. As such, Netflix must keep their platform stocked with popular movies and tailored recommendation systems to promotes these movies to users. So, the refined goal for content recommendation is to use past user's movie ratings to determine what movies should be added to netflix and what should be recommended to users. Having interesting and well liked content on Netflix's platform is beneficial to them as users will stay on the platform longer and possibly recommend the platform/specific movies to friends/families. Additionally, having tailored recommendations achieves this goal as well. Overall, the convergence of the problem comes from the root objective of keeping people engaged on the platform and the idea that personalized recommendations are superior to broad ones. 
@@ -29,10 +30,10 @@ The rationale behind this convergence is getting to the root of the problem. Net
 
 The motivation for this project is personal. Watching tv is one of my favorite things to do, but I often am looking for new content to consume. Sometimes the recommendations that Netflix or other platforms provides are not effective. This is bad for me, because I am not getting the content that I want, and for Netflix because I am not engaged on their platform and might shift to platforms. In the end, it is of the benefit to the both of us to have an effective recommendation system and well liked content to ensure user engagement and satisfaction. 
 
-A better way to find tv! Read the full press release [here](documents/press_release.md).
+**A better way to find tv!** Read the full press release [here](documents/press_release.md).
 
 ## Domain Exposition
-Jargon Table
+Terminology Table
 | Term/KPI | Definition | Term or KPI |
 | :--- | :--- | :--- |  
 | Netflix | A video streaming platform. | Term |
@@ -78,6 +79,7 @@ I decided to make a synthetic data table because an older version of this datase
 
 
 ## Metadata
+#### Entity Relationship Diagram (ERD)
 ![erd](images/erd.png)
 
 
