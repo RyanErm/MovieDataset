@@ -29,8 +29,7 @@ The rationale behind this convergence is getting to the root of the problem. Net
 
 The motivation for this project is personal. Watching tv is one of my favorite things to do, but I often am looking for new content to consume. Sometimes the recommendations that Netflix or other platforms provides are not effective. This is bad for me, because I am not getting the content that I want, and for Netflix because I am not engaged on their platform and might shift to platforms. In the end, it is of the benefit to the both of us to have an effective recommendation system and well liked content to ensure user engagement and satisfaction. 
 
-
-[A better way to find tv!](documents/press_release.md)
+A better way to find tv! Read the full press release [here](documents/press_release.md).
 
 ## Domain Exposition
 Jargon Table
