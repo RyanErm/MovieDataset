@@ -22,15 +22,15 @@ WRITE ME OUT
 ## Problem Definition
 **Initial Problem:** Netflix Content Recommendation
 
-**Refined Specific Problem:** What content should be recommended for Netflix to add to their platform increase user engagement in the platform?
+**Refined Specific Problem:** Predicting content that users will and enjoy and that Netflix should add to its platform.
 
 
-The rationale behind this convergence is getting to the root of the problem. Netflix is one of many streaming services now available to users. As such, Netflix must keep their platform stocked with popular movies and tailored recommendation systems to promotes these movies to users. So, the refined goal for content recommendation is to use past user's movie ratings to determine what movies should be added to netflix and what should be recommended to users. Having interesting and well liked content on Netflix's platform is beneficial to them as users will stay on the platform longer and possibly recommend the platform/specific movies to friends/families. Additionally, having tailored recommendations achieves this goal as well. Overall, the convergence of the problem comes from the root objective of keeping people engaged on the platform and the idea that personalized recommendations are superior to broad ones. 
+The rationale behind this convergence is getting to the root of the problem. Netflix is one of many streaming services now available to users. As such, Netflix must keep their platform stocked with popular movies and tailored recommendation systems to promote these movies to users. So, the refined goal for content recommendation is to use past users' movie ratings to determine what movies should be added to netflix and what should be recommended to users. Having interesting and well liked content on Netflix's platform is beneficial to them as users will stay on the platform longer and possibly recommend the platform/specific movies to friends/families. Having tailored recommendations achieves this goal as well. Overall, the convergence of the problem comes from the root objective of keeping people engaged on the platform and the idea that personalized recommendations are superior to broad ones. 
 
 
-The motivation for this project is personal. Watching tv is one of my favorite things to do, but I often am looking for new content to consume. Sometimes the recommendations that Netflix or other platforms provides are not effective. This is bad for me, because I am not getting the content that I want, and for Netflix because I am not engaged on their platform and might shift to platforms. In the end, it is of the benefit to the both of us to have an effective recommendation system and well liked content to ensure user engagement and satisfaction. 
+The motivation for this project is personal. Watching tv is one of my favorite things to do, but I often am looking for new content to consume. Sometimes the recommendations that Netflix or other platforms provides are not effective. This is bad for me, because I am not getting the content that I want, and bad for Netflix because I am not engaged on their platform and might shift to other platforms. In the end, it will benefit us both to have an effective recommendation system and well liked content to ensure user engagement and satisfaction. 
 
-**A better way to find tv!** Read the full press release [here](documents/press_release.md).
+**A better way to find Movies!** Read the full press release [here](documents/press_release.md).
 
 ## Domain Exposition
 Terminology Table
@@ -45,9 +45,9 @@ Terminology Table
 | Previously Watched | If the user has already watched any part of the content or not | Term |
 
 
-This project lives in the domains of entertainment and content recommendation algorithms. Since the goal is to give recommendations to users for entertainment, naturally this project would be important to entertainment companies. Specifically streaming services that want users to stay on their platform. This industry has gotten to be extremely competitive nowadays with many new streaming services popping up (HBO Max, Hulu, Disney +, Paramount +, etc.). Since these are fixed price services, they want people to enjoy their platform and have interesting content so that users will get other people to subscribe. Also, the domain of content recommendations algorithms has had to evolve along with this. Since there is a huge amount of shows on each platform, users need a way to find the ones that interest them in an easy manner.
+This project lives in the domains of entertainment and content recommendation algorithms. Since the goal is to give recommendations to users for entertainment, naturally this project would be important to entertainment companies. Specifically streaming services that want users to stay on their platform. This industry has gotten to be extremely competitive nowadays with many new streaming services popping up (HBO Max, Hulu, Disney +, Paramount +, etc.). Since these are fixed price services, they want people to enjoy their platform and have interesting content so that users remain subscribed and influence friends/family to subscribe. Also, the domain of content recommendations algorithms has had to evolve along with this. Since there is a huge amount of content on each platform, users need a way to find the ones that interest them in an easy manner.
 
-[Background Reading](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgDHbT83FJg4SYEykl-iIskoAXHbN_KretkzzvqoBKgnKy0?e=nBd5rL)
+Check out some background reading on the these fields below!
 
 | Title | Description | Link |
 | :--- | :--- | :--- |  
@@ -58,19 +58,21 @@ This project lives in the domains of entertainment and content recommendation al
 | Is Netflix actually bad at recommendations… <br> or is the algorithm intentionally limiting what we see? | This is a reddit thread where users are describing the issues that they have <br> with Netflix's reccomendation system. These reviews are extremely helpful <br> in determining how to create the new reccomendation system. |  https://myuva-my.sharepoint.com/:w:/g/personal/jph4dg_virginia_edu/IQA7hxjsUc_IQr52MJNlDJ5OAULHsILQ5_A72Gu-evt_goU?e=bWAZ3l |
 
 
-All files can be found [here](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgDHbT83FJg4SYEykl-iIskoAXHbN_KretkzzvqoBKgnKy0?e=TChx0l)
+All readings/files can be found [here](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgDHbT83FJg4SYEykl-iIskoAXHbN_KretkzzvqoBKgnKy0?e=TChx0l)
+
+
 ## Data Creation
 
-The data aquisition process for this project mainly entitled gathering data from the movie lens dataset (32 million record version). The files were then downloaded and unpacked. To start, the movies and the ratings files were split up. The movies file became mov and only contains information on movies. The users file has a unique row for each user. Then the users file was supplemented with synthetic data to mimic their jobs, salary, and age. The ratings data table became rat and has ratings from all the users. Finally, another datatable was created that describes users watching history.
+The data acquisition process for this project mainly entitled gathering data from the movie lens dataset (32 million record version). The files were then downloaded and unpacked. To start, the movies and the ratings files were split up. The movies file became mov and only contains information on movies (genre, title, release year). The users file has a unique row for each user. Then the users file was supplemented with synthetic data to mimic their jobs, salary, and age. The ratings data table became rat and has ratings from all the users (including timestamp). Finally, another data table was created that describes users watching history (e.g. minutes watched).
 
-Another dataset was also used for this project. A dataset on Kaggle was found that contains the movies present on netflix. This dataset became the net_mov dataset after it was filtered and joined to have the same column types as the mov datatable. 
+Another dataset was also used for this project. A dataset on Kaggle was found that contains the movies present on Netflix. This dataset was joined with the mov dataset to become net_mov, which is a subset that contains only movies present on Netflix. The net_mov dataset was filtered to have the same column types as the mov data table. 
 
-For all of the gathered data, there is some room for bias to occur. All of the ratings came from the movie lens dataset, and were provided by actual users. Bias could have come from people intentionally rating a movie high or low (love/hate the movie) or not including all movie watchers. For the synthetic data, bias could have come from not having random data or not accurately representing the human population. There is not room for bias in the user watching history table as that was just calculated data.
+For all of the gathered data (mov, net_mov, rat), there is some room for bias to occur. All of the ratings came from the movie lens dataset, and were provided by actual users. Bias could have come from people intentionally rating a movie high or low (love/hate the movie) or not including all movie watchers. For the synthetic data, bias could have come from not having real data or not accurately representing the human population. There is not room for bias in the user watching history table as that was just calculated data.
 
 
-To combat the bias of possibly not including enough users, a dataset of more than 32 million reviews was used. For the synthetic data, care was taken to ensure that the numbers created were not totally random. Research was done as to what the top jobs are in the world and what their mean salaries were. This way the data here is representative of the global population. Finally, as stated before, there is not room for bias in the user watching history table as it is just calculated data.
+To combat the bias of possibly not including enough users, a dataset of more than 32 million reviews was used. For the synthetic data, care was taken to ensure that the numbers created were not totally random. Research was done as to what the top jobs are in the US and what their mean salaries were. This way the data here is representative of the US population. Finally, as stated before, there is not room for bias in the user watching history table as it is just calculated data.
 
-I decided to make a synthetic data table because an older version of this dataset had such characteristics about the users. It seemed that it would add an extra level of complexity to the data, so I decided to recreate it, despite knowing that it might cause bias down the line. Additionally, Netflix would not have this information about users unless they willingly provided, so if they wanted to recreate this model, it would have to be synthetic data as well. I also decided to create a calculated data table because I think that these would be good statistics to help with a recommendation model. I choose to make a Netflix datatable mainly because it would help with data separation down the line. If the model were to be trained on only netflix movies or non netflix movies, the two groups would have already been split up. 
+I decided to make a synthetic data table because an older version of this dataset had such characteristics about the users. It seemed that it would add an extra level of complexity to the data, so I decided to recreate it, despite knowing that it might cause bias down the line. Additionally, Netflix would not have this information about users unless they willingly provided, so if they wanted to recreate this model, it would have to be synthetic data as well. I also decided to create a calculated data table because I think that these would be good statistics to help with a recommendation model. I choose to make a Netflix data table mainly because it would help with data separation down the line. If the model were to be trained on only netflix movies or non netflix movies, the two groups would have already been split up. 
 
 
 | Code File | Description | Link |
@@ -177,7 +179,7 @@ net_mov
 | War | BOOL | If the movie was War genre | 0 | N/A |
 | Western | BOOL | If the movie was Western genre | 1 | N/A |
 
-### Quantification of Uncertainty
+#### Quantification of Uncertainty
 
 There are multiple numerical columns that have no uncertainty associated with them as they are just identifiers. For example, all iD columns are numerical, but these are identifiers so there is no uncertainty associated with them. 
 
