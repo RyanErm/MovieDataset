@@ -3,8 +3,8 @@ Ryan Ermovick - jph4dg
 
 CREATE A DOI
 
-Executive Summary:
-WRITE ME OUT
+**Executive Summary:**
+This repository contains the detailed creation of the MovieDataset, including the origin of the data, how it was transformed, and how it can be used. The README contains information on the problem being solved, domain exposition, data creation, and metadata. The repository also contains a RandomForestRegressor that is used to predict how users would rate a certain movie. The press release details how this model could be used. 
 
 
 #### Important Links
@@ -67,8 +67,8 @@ The data acquisition process for this project mainly entitled gathering data fro
 
 Another dataset was also used for this project. A dataset on Kaggle was found that contains the movies present on Netflix. This dataset was joined with the mov dataset to become net_mov, which is a subset that contains only movies present on Netflix. The net_mov dataset was filtered to have the same column types as the mov data table. 
 
-For all of the gathered data (mov, net_mov, rat), there is some room for bias to occur. All of the ratings came from the movie lens dataset, and were provided by actual users. Bias could have come from people intentionally rating a movie high or low (love/hate the movie) or not including all movie watchers. For the synthetic data, bias could have come from not having real data or not accurately representing the human population. There is not room for bias in the user watching history table as that was just calculated data.
 
+For all of the gathered data (mov, net_mov, rat), there is some room for bias to occur. All of the ratings came from the movie lens dataset, and were provided by actual users. Bias could have come from people intentionally rating a movie high or low (love/hate the movie) or not including all movie watchers. For the synthetic data, bias could have come from not having real data or not accurately representing the human population. There is not room for bias in the user watching history table as that was just calculated data.
 
 To combat the bias of possibly not including enough users, a dataset of more than 32 million reviews was used. For the synthetic data, care was taken to ensure that the numbers created were not totally random. Research was done as to what the top jobs are in the US and what their mean salaries were. This way the data here is representative of the US population. Finally, as stated before, there is not room for bias in the user watching history table as it is just calculated data.
 
