@@ -40,7 +40,7 @@ The motivation for this project is personal. Watching tv is one of my favorite t
 **A better way to find Movies!** Read the full press release [here](documents/press_release.md).
 
 ## Domain Exposition
-Terminology Table
+#### Terminology Table
 | Term/KPI | Definition | Term or KPI |
 | :--- | :--- | :--- |  
 | Netflix | A video streaming platform. | Term |
@@ -54,7 +54,7 @@ Terminology Table
 #### Domain Explanation
 This project lives in the domains of entertainment and content recommendation algorithms. Since the goal is to give recommendations to users for entertainment, naturally this project would be important to entertainment companies. Specifically streaming services that want users to stay on their platform. This industry has gotten to be extremely competitive nowadays with many new streaming services popping up (HBO Max, Hulu, Disney +, Paramount +, etc.). Since these are fixed price services, they want people to enjoy their platform and have interesting content so that users remain subscribed and influence friends/family to subscribe. Also, the domain of content recommendations algorithms has had to evolve along with this. Since there is a huge amount of content on each platform, users need a way to find the ones that interest them in an easy manner.
 
-Check out some background reading on the these fields below!
+#### Check out some background reading on the these fields below!
 
 | Title | Description | Link |
 | :--- | :--- | :--- |  
