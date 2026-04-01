@@ -95,7 +95,7 @@ Below is a description of every data table in the database and a link to it
 
 All data tables can be found in this folder [here](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgCkBPj3Qvv_RqwRktNJpfHWAd3jXUCRhCbCgvidEkNqbVM?e=aQWVLi).
 
-Below is a data dictionary for each table in the database. 
+#### Below is a data dictionary for each table in the database. 
 Users
 | Name | Datatype | Description | Example | Uncertainty |
 | :--- | :--- | :--- | :--- | :--- |  
