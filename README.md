@@ -17,6 +17,13 @@ This repository contains the detailed creation of the MovieDataset, including th
 | Pipeline & Model File | [pipeline.ipynb](scripts/pipeline.md) |
 | Ryan Ermovick MIT License | [license](LICENSE) | 
 
+#### Quick Folder Guide
+| Folder | Description |
+| :--- | :--- |
+| documents | Contains important documents, such as the Press Release |
+| images | Contains images created in this project that can be used elsewhere |
+| scripts | Contains the scripts used in this project |
+
 
 
 ## Problem Definition
@@ -81,10 +88,10 @@ I decided to make a synthetic data table because an older version of this datase
 
 
 ## Metadata
-#### Entity Relationship Diagram (ERD)
+### Entity Relationship Diagram (ERD)
 ![erd](images/erd.png)
 
-Below is a description of every data table in the database and a link to it
+**Below is a description of every data table in the database and a link to it**
 | Data Table | Description | Link |
 | :--- | :--- | :--- |  
 | Users | Data on each user and their lifestyle | https://myuva-my.sharepoint.com/:u:/g/personal/jph4dg_virginia_edu/IQDOfQ2NaHrJT7bTmOMNOk3hAenB2wNTW-Nb-6C6aZrlmEE?e=acLMMP |
@@ -95,8 +102,9 @@ Below is a description of every data table in the database and a link to it
 
 All data tables can be found in this folder [here](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgCkBPj3Qvv_RqwRktNJpfHWAd3jXUCRhCbCgvidEkNqbVM?e=aQWVLi).
 
-#### Below is a data dictionary for each table in the database. 
-Users
+### Below is a data dictionary for each table in the database. 
+
+**Users**
 | Name | Datatype | Description | Example | Uncertainty |
 | :--- | :--- | :--- | :--- | :--- |  
 | userID | INT | Inique user identification code | 1 | N/A |
@@ -105,7 +113,7 @@ Users
 | salary | CHAR | The salary of the user | 33000 | +- 1000 |
 
 
-Rat
+**Rat**
 | Name | Datatype | Description | Example | Uncertainty |
 | :--- | :--- | :--- | :--- | :--- |
 | userID | INT | The unique ID of the user | 1 | N/A |
@@ -113,7 +121,7 @@ Rat
 | rating | FLOAT | The rating the user gave the movie | 5.0 | N/A |
 | timestamp | FLOAT | The time at which the review was made | 944249077.0 | N/A |
 
-watch_history
+**watch_history**
 | Name | Datatype | Description | Example | Uncertainty |
 | :--- | :--- | :--- | :--- | :--- |
 | userID | INT | The unique ID of the user | 1 | N/A |
@@ -122,8 +130,7 @@ watch_history
 | total_minutes_watched | INT | The total minutes this user has spent watching movies that they have reviewed | 16074 | +- 5 |
 
 
-mov
-
+**mov**
 | Name | Datatype | Description | Example | Uncertainty |
 | :--- | :--- | :--- | :--- | :--- |
 | movieID | INT | The unique ID of the movie | 1 | N/A |
@@ -152,8 +159,7 @@ mov
 
 
 
-net_mov
-
+**net_mov**
 | Name | Datatype | Description | Example | Uncertainty |
 | :--- | :--- | :--- | :--- | :--- |
 | movieID | INT | The unique ID of the movie | 1 | N/A |
@@ -184,7 +190,7 @@ net_mov
 
 There are multiple numerical columns that have no uncertainty associated with them as they are just identifiers. For example, all iD columns are numerical, but these are identifiers so there is no uncertainty associated with them. 
 
-In the mov and netmov data table, the year column has no uncertainty as it is just the year the movie was released. Each of the genres are just binary values (stored numerically), so they have no uncertainty. 
+In the mov and net_mov data table, the year column has no uncertainty as it is just the year the movie was released. Each of the genres are just binary values (stored numerically), so they have no uncertainty. 
 
 In the watch history data table, there is uncertainty for the avg_rating, as this was a calculated number and some numbers might be rounded off. As such, the uncertainty for this is +- 0.000005 rating points. The movies watched column is a sums and does not have any uncertainty. The total minutes watched column has some uncertainty as the length of each movie was synthetically generated. The uncertainty for this is +- 5 minutes. 
 
