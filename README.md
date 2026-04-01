@@ -15,7 +15,7 @@ This repository contains the detailed creation of the MovieDataset, including th
 | :--- | :--- |
 | Folder with data files | [Data Set](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgCkBPj3Qvv_RqwRktNJpfHWAd3jXUCRhCbCgvidEkNqbVM?e=aQWVLi) |
 | Press Release | [press_release.md](documents/press_release.md) |
-| Data Creation File | [data_preparation](data_preparation.ipynb) |
+| Data Creation File | [data_preparation](scripts/data_preparation.ipynb) |
 | Pipeline & Model File | [pipeline.ipynb](scripts/pipeline.md) |
 | Ryan Ermovick MIT License | [license](LICENSE) | 
 
@@ -60,11 +60,11 @@ This project lives in the domains of entertainment and content recommendation al
 
 | Title | Description | Link |
 | :--- | :--- | :--- |  
-| We delve into the exciting history of Netflix: <Br> How a global entertainment leader was forged | This article reviews the timeline of Netflixs creation <br> and how it has evolved from a DVD service to a streaming platform. | https://myuva-my.sharepoint.com/:w:/g/personal/jph4dg_virginia_edu/IQByl0XGM0rdQYFDzKTttHtIAcNBrgTSpqHvAxOrnX8H8b0?e=cYfaGe |
-| Recommendations | This is a short article from Netflix itself about its reccomendations. <br> Reading this article could be helpful in determining Netflix's motivation <br> and logic behind decisions. | https://myuva-my.sharepoint.com/:w:/g/personal/jph4dg_virginia_edu/IQBHxVlUQJXfQZIljCO6lfgGAY-ykEcAYR3Pphxz35upht8?e=1LLiV4 |
-| Winning the Streaming Wars: Are Megahits Like Stranger Things the Answer? | This article describes the complex business landscape of <br> streaming services and how Netflix fits into it. Additionally, this article might <br> shed light as to why Netflix would want to update their reccomendation system. | https://myuva-my.sharepoint.com/:w:/g/personal/jph4dg_virginia_edu/IQA6zyoxBaKzR5I74m2ogfCRAQqASUKhVumINAZMRsfls2Q?e=atWRUP |
-| Netflix’s Recommendation Systems: Entertainment Made for You | This article describs how reccomendation systems actually work. <br>  Reading this article could <br> inspire new ideas for a novel reccomendation system. | https://myuva-my.sharepoint.com/:w:/g/personal/jph4dg_virginia_edu/IQAE66UeCebQQ5joZwi4d_GWAdka0ia8yry3m7iONrkGXrU?e=rSOr41 |
-| Is Netflix actually bad at recommendations… <br> or is the algorithm intentionally limiting what we see? | This is a reddit thread where users are describing the issues that they have <br> with Netflix's reccomendation system. These reviews are extremely helpful <br> in determining how to create the new reccomendation system. |  https://myuva-my.sharepoint.com/:w:/g/personal/jph4dg_virginia_edu/IQA7hxjsUc_IQr52MJNlDJ5OAULHsILQ5_A72Gu-evt_goU?e=bWAZ3l |
+| We delve into the exciting history of Netflix: <Br> How a global entertainment leader was forged | This article reviews the timeline of Netflix's creation <br> and how it has evolved from a DVD service to a streaming platform. | https://myuva-my.sharepoint.com/:b:/g/personal/jph4dg_virginia_edu/IQDAL-avZupKQLGg63tua0SqAdA23EnkIsF-zojt3ZjuyfI?e=6FpcdJ |
+| Recommendations | This is a short article from Netflix itself about its recommendations. <br> Reading this article could be helpful in determining Netflix's motivation <br> and logic behind decisions. | https://myuva-my.sharepoint.com/:b:/g/personal/jph4dg_virginia_edu/IQC6BhgYlr6BTIqGtKleC1wdAValSTurejUtpef_il1zjHc?e=uJc98d |
+| Winning the Streaming Wars: Are Megahits Like Stranger Things the Answer? | This article describes the complex business landscape of <br> streaming services and how Netflix fits into it. Additionally, this article might <br> shed light as to why Netflix would want to update their recommendation system. | https://myuva-my.sharepoint.com/:b:/g/personal/jph4dg_virginia_edu/IQC7NtVB38zMR6eBfhV1iCNEATC064ckekcMW5UxBA8HGd4?e=wSXGqv |
+| Netflix’s Recommendation Systems: Entertainment Made for You | This article describes how recommendation systems actually work. <br>  Reading this article could <br> inspire new ideas for a novel recommendation system. | https://myuva-my.sharepoint.com/:b:/g/personal/jph4dg_virginia_edu/IQCN8BJ9pypyTrukDpzRWOhJAc8QYx60qx1mwfBFgo_k8HU?e=OUTk69 |
+| Is Netflix actually bad at recommendations… <br> or is the algorithm intentionally limiting what we see? | This is a reddit thread where users are describing the issues that they have <br> with Netflix's recommendation system. These reviews are extremely helpful <br> in determining how to create the new recommendation system. | https://myuva-my.sharepoint.com/:b:/g/personal/jph4dg_virginia_edu/IQCFN7SR9eTXQLETAlAPkbXCAfPPCw4wy8k4jMgoAgD16E4?e=HUaG3r |
 
 
 All readings/files can be found [here](https://myuva-my.sharepoint.com/:f:/g/personal/jph4dg_virginia_edu/IgDHbT83FJg4SYEykl-iIskoAXHbN_KretkzzvqoBKgnKy0?e=TChx0l)
