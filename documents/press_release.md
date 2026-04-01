@@ -10,4 +10,4 @@ Our solution! A new algorithm for Netflix should satisfy customers concerns that
 ## Chart
 Below is a chart that shows the average ratings by genre for movies on Netflix versus movies not on Netflix. With out new algorithm we hope to bridge the rating gap by providing more tailored and well-liked content to users. Having been provided with bespoke content, users will hopefully leave more higher reviews and recommend Netflix to their friends/family!
 
-![Comparison Chart](chart.png)
+![Comparison Chart](../images/chart.png)
