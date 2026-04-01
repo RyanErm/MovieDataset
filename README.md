@@ -1,7 +1,8 @@
 # DS 4320 Project 1 - MovieDataset
 Ryan Ermovick - jph4dg
 
-CREATE A DOI
+**DOI:** 10.5281/zenodo.19362900 
+Linked [here](https://doi.org/10.5281/zenodo.19362900)
 
 **Executive Summary:**
 This repository contains the detailed creation of the MovieDataset, including the origin of the data, how it was transformed, and how it can be used. The README contains information on the problem being solved, domain exposition, data creation, and metadata. The repository also contains a RandomForestRegressor that is used to predict how users would rate a certain movie. The press release details how this model could be used. 
